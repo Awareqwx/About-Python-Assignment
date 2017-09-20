@@ -1,0 +1,170 @@
+.wrapper{
+    background-color: #265175;
+    color: white;
+    width: 970px;
+    font-family: Arial;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+
+a{
+    color: white;
+}
+
+.wrapper img{
+    display: inline-block;
+    position: relative;
+    right: 160px;
+    height: 100px;
+    width: 354px;
+    margin: 10px;
+}
+
+.searchbar{
+    display: inline-block;
+    position: relative;
+    left: 120px;
+    vertical-align: top;
+    margin: 0;
+}
+
+.searchbar p{
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.searchbar a{
+    color: #FFC400;
+}
+
+.blacktext{
+    color: black;
+}
+.searchbox{
+    border-radius: 8px;
+    background-color: #3B3B3B;
+    text-align: center;
+    box-shadow: 3px 3px 1px black;
+}
+
+.searchbox form{
+    margin: 10px;
+    height: 60px;
+    width: 240px;
+    position: relative;
+    top: 10px;
+}
+
+.searchbox input[type="text"]{
+    width: 150px;
+    height: 30px;
+    border-style: inset;
+    text-align: center;
+    border-color: lightgray;
+}
+
+.searchbox input[type="submit"]{
+    border-radius: 5px;
+    background-color: #265175;
+    color: white;
+    height: 30px;
+}
+
+.navbar{
+    background-color: #537CC4;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 3px 3px 1px black;
+    margin: 20px;
+}
+
+.navbar h2{
+    font-weight: normal;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.maincontent ul{
+    display: inline-block;
+    vertical-align: top;
+    list-style-image: url("Assets/bulletarrow.png");
+}
+
+.maincontent li{
+    margin-bottom: 5px;
+}
+
+.description{
+    display: inline-block;
+    width: 600px;
+}
+
+.description p{
+    font-size: 10pt;
+    margin: 0 20px;
+}
+
+.description h3{
+    color: #FFC400;
+    font-style: italic;
+}
+
+.description h3, .description h4{
+    font-weight: 100;
+}
+
+.textbox{
+    background-color: white;
+    color: black;
+    border: solid black;
+    border-width: 5px 0px;
+    width: 100%;
+}
+
+.textbox a{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.textwrapper{
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    margin: 10px 20px;
+    border: solid cornflowerblue;
+    border-width: 3px 0px 0px
+}
+
+.footer{
+    background: #265175;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), cornflowerblue);
+    background: -o-linear-gradient(rgba(0, 0, 0, 0), cornflowerblue);
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0), cornflowerblue);
+    background: linear-gradient(rgba(0, 0, 0, 0), cornflowerblue);
+}
+
+.footer h3{
+    display: inline-block;
+    margin: 50px 20px 20px 20px;
+    font-weight: normal;
+}
+
+.footer a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.footer p{
+    color: #B5C9E9;
+    font-size: 9pt;
+}
